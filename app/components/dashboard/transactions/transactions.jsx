@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import styles from "./transactions.module.css";
-import Link from "next/link";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -9,7 +8,7 @@ const Transactions = () => {
   const [transactions, setTransactions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [statuses, setStatuses] = useState({});
+  
 
   const formatDate = (isoDate) => {
     const date = new Date(isoDate);

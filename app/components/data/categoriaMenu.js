@@ -3,11 +3,7 @@ import {
   MdSupervisedUserCircle,
   MdShoppingBag,
   MdAttachMoney,
-  MdWork,
-  MdAnalytics,
-  MdPeople,
-  MdOutlineSettings,
-  MdHelpCenter,
+  MdPeople,  
 } from "react-icons/md";
 
 const menuItems = [

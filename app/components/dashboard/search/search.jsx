@@ -1,10 +1,10 @@
 "use client"
 import { MdSearch } from "react-icons/md";
 import styles from "./search.module.css"
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 
 const Search = ({ placeholder, onSearch }) => {
-  const pathname = usePathname();
+  // const pathname = usePathname();
 
   const handleSearch = (e) => {
     const query = e.target.value;

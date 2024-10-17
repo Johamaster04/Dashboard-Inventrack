@@ -816,3 +816,16 @@
 2024-10-17 12:35:35 info: GET /api/products/
 2024-10-17 12:35:36 info: GET /api/orders/
 2024-10-17 12:35:37 info: GET /api/orders/
+2024-10-17 12:53:08 info: >>> DB is connected
+2024-10-17 12:53:08 info: Listening on port http://localhost:8000
+2024-10-17 12:53:08 info: Environment: development
+2024-10-17 12:53:10 info: POST /api/auth/login
+2024-10-17 12:53:25 info: GET /api/orders/
+2024-10-17 12:53:25 info: GET /api/orders/
+2024-10-17 12:53:33 info: GET /api/users
+2024-10-17 12:53:33 info: GET /api/users
+2024-10-17 12:53:37 info: GET /api/products/
+2024-10-17 12:53:38 info: GET /api/products/
+2024-10-17 12:53:42 info: GET /api/orders/
+2024-10-17 12:53:42 info: GET /api/orders/
+2024-10-17 12:53:44 info: POST /api/auth/logout
