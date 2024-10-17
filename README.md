@@ -1,48 +1,36 @@
-# Node.js Server
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Este es un servidor de inventario construido con Node.js y Express, utilizando JWT para la autenticación y Zod para la validación. También incluye Winston para la gestión de logs y varias medidas de seguridad con Helmet y manejo de cookies.
+## Getting Started
 
-## Características
+First, run the development server:
 
-- **Autenticación**: Registro, login y logout utilizando JWT.
-- **Validación**: Validación de entradas con Zod.
-- **Gestión de Logs**: Logs detallados con Winston.
-- **Seguridad**: Manejo de cookies y varias configuraciones de seguridad con Helmet.
-- **Base de Datos**: Conexión a MongoDB con Mongoose.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Requisitos
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Node.js v14 o superior
-- MongoDB o Mongo Atlas
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Instalación
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-1. Clona el repositorio:
-    ```sh
-    git clone https://github.com/No-Country-simulation/c19-51-n-node-react
-    cd tu-repositorio
-    ```
+## Learn More
 
-2. Instala las dependencias:
-    ```sh
-    npm install
-    ```
+To learn more about Next.js, take a look at the following resources:
 
-3. Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
-    ```env
-    PORT=8000
-    MONGODB_URI=mongodb://localhost:27017/inventory
-    TOKEN_SECRET=secret
-    FRONTEND_URL=http://localhost:3000
-    ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-4. Ejecuta el servidor en modo desarrollo:
-    ```sh
-    npm run dev
-    ```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-5. Para ejecutar el servidor en producción:
-    ```sh
-    npm start
-    ```
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

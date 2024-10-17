@@ -1,0 +1,5 @@
+2024-08-06 13:33:10 error: MongoServerError: E11000 duplicate key error collection: inventory.users index: identification_1 dup key: { identification: "12345" }
+    at InsertOneOperation.execute (C:\Users\Johansen Picado\Desktop\No country\c19-51-n-node-react\server\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (C:\Users\Johansen Picado\Desktop\No country\c19-51-n-node-react\server\node_modules\mongodb\lib\operations\execute_operation.js:136:16)
+    at async Collection.insertOne (C:\Users\Johansen Picado\Desktop\No country\c19-51-n-node-react\server\node_modules\mongodb\lib\collection.js:155:16)
